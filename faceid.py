@@ -61,11 +61,9 @@ class FaceRecognitionSystem:
                 break
         cap.release()  
         cv2.destroyAllWindows()
-
     def back_to_main(self):
-        self.new_window.destroy()
-        self.root.deiconify()
-
+         self.new_window.destroy()
+         self.root.deiconify()
 
 if __name__ == "__main__":
    root = Tk()
